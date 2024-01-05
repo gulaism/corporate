@@ -1,0 +1,25 @@
+.dots-white {
+    left: -54px;
+    bottom: 21px;
+}
+.dots-white2 {
+    right: -39px;
+    top: 21px;
+}
+
+.dots-red {
+    overflow: hidden;
+    top: 35px;
+    left: -45px;
+}
+.man-with-glasses {
+    left: 0;
+    top: 0;
+}
+.notebook {
+    left: 253px;
+    bottom: 0;
+}
+.container-4 .words {
+    right: 0;
+}

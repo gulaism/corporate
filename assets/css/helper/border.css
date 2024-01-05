@@ -1,0 +1,22 @@
+.rounded-5 {
+    border-radius: 5px;
+}
+.rounded-2 {
+    border-radius: 2px;
+}
+.border-red {
+    border-color: var(--primary-red);
+}
+.border {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+.bg-red {
+    background-color: var(--primary-red);
+}
+.brdr-none {
+    border: none;
+}
+.cursor {
+    cursor: pointer;
+}
