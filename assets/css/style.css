@@ -1,11 +1,4 @@
 @import "./reset.css";
 @import "./variables.css";
 @import "./font.css";
-@import "./helper/paddings.css";
-@import "./helper/flex.css";
-@import "./helper/margins.css";
-@import "./helper/size.css";
-@import "./helper/border.css";
-@import "./helper/color.css";
-@import "./helper/images.css";
 @import "./main.css";
