@@ -1,0 +1,39 @@
+.header {
+    padding: 24px 0;   
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1176px;
+    padding
+}
+.logo {
+    width: 88px;
+    height: 52px;
+}
+.header button {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 100%;
+}
+.header .middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 56px;
+    color: #000;
+}
+.header .middle .active {
+    color: var(--primary-red);
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: underline;
+    line-height: normal;
+    text-underline-offset: 4px;
+}

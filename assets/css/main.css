@@ -1,189 +1,83 @@
-.container {
-    margin: 0 auto;
-    height: 100px;
-    width: 1176px;
+.slider {
+    background-color: var(--primary-blue);
+    position: relative;
+    margin-top: 0 !important;
 }
 
-.navbar {
-    padding-top: 24px;
-    padding-bottom: 24px;
+.slider .full-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-}
+    gap: 17px;
+    width: 1243px;
 
-.navbar img {
-    width: 88px;
-    height: 52px;
-}
-
-.navbar .middle {
-    display: flex;
-    gap: 56px;
-    color: #000;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.navbar .middle .active {
-    color: var(--primary-red);
-    font-weight: 600;
-    text-decoration-line: underline;
-}
-
-.navbar button {
-    padding: 14px 17px;
-    border-radius: 5px;
-    background: var(--primary-red);
-    border: none;
-    cursor: pointer;
-    color: #FFF;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 100%;
-}
-
-.full-container {
-    width: 1200px;
-    height: 669px;
-    background-color: var(--primary-blue);
     margin: 0 auto;
-    display: flex;
-    position: relative;
+
 }
 
-.full-container .man {
-    height: 614px;
-    width: auto;
+.slider .words {
+    padding-top: 138px;
+}
+
+.slider .dots-1,
+.slider .dots-2 {
     position: absolute;
-    bottom: 0;
-    right: 0;
+    width: 112px;
+    height: 112px;
 }
 
-.full-container .phrase-1 {
-    color: #FFF;
+.slider .dots-1 {
+    bottom: 27px;
+    left: -57px;
+    text-align: center;
+}
+
+.slider .dots-2 {
+    top: 27px;
+    right: -39px;
+}
+
+.slider .man {
+    padding-top: 54px;
+}
+
+.slider .phrase-1 {
     font-size: 58px;
     font-weight: 700;
-    line-height: 140%;
+    line-height: 140%
 }
 
-.full-container .phrase-1 span {
-    color: var(--primary-red);
-}
-
-.full-container .phrase-2 {
-    color: #F4F3F3;
+.slider .phrase-2 {
     font-size: 16px;
     font-weight: 400;
     line-height: 160%;
-    padding-top: 23px;
-    padding-bottom: 23px;
+    margin: 23px 0;
 }
 
-.full-container button {
-    border-radius: 2px;
-    background: var(--primary-red);
-    color: #fff;
-    border: none;
-    padding: 14px 17px;
-
-}
-
-.full-container .dots-1,
-.full-container .dots-2 {
-    position: absolute;
-    width: 112px;
-    height: 112px;
-}
-
-.full-container .dots-1 {
-    left: -60px;
-    bottom: 26px;
-}
-
-.full-container .dots-2 {
-    right: -36px;
-    top: 26px;
-}
-
-.full-container .words {
-    margin-bottom: 138px;
-    margin-top: 138px;
-    width: 50%;
-    margin-left: 12px;
-}
-
-.container-3 {
-    width: 1099px;
-    height: 394px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    position: relative;
-    margin: 141px auto;
-}
-
-.container-3 .logo {
-    width: 60px;
-    height: 60px;
-    margin-bottom: 34px;
-}
-
-.container-3 .logo:nth-child(1) {
-    margin-left: 116.5px;
-}
-
-.container-3 h3:not(:nth-child(1)) {
-    color: var(--primary-blue);
-    font-size: 28px;
-    font-weight: 500;
+.slider button {
+    font-size: 20px;
+    font-weight: 700;
     line-height: 100%;
-    padding-bottom: 15px;
-    text-align: center;
 }
 
-.container-3 p {
-    color: var(--lightgray);
-    text-align: center;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 160%;
+.section-features {
+    position: relative;
 }
 
-.container .item {
-    display: flex;
-    justify-content: center;
-}
-
-.container-3 .red-dots {
-    width: 112px;
-    height: 112px;
-}
-
-.container-3 .div-red-dots {
-    position: absolute;
-    width: 56px;
-    height: 112px;
-    overflow: hidden;
-    left: -50.5px;
-    top: 35px;
-}
-
-.container-3>h3 {
-    color: var(--primary-red);
+.section-features .h3 {
     font-size: 20px;
     font-weight: 500;
     line-height: 100%;
     letter-spacing: 4.2px;
-    text-transform: uppercase;
-    text-align: center;
     padding-bottom: 18px;
 }
 
-.container-3>h2 {
-    color: var(--primary-blue);
+.section-features .container-3 {
+    width: 1099px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section-features .subtitle {
     text-align: center;
     font-size: 38px;
     font-weight: 600;
@@ -191,111 +85,277 @@
     padding-bottom: 76px;
 }
 
-.container-3 .products {
+.section-features .products {
     display: flex;
-    justify-content: space-between;
     gap: 110px;
-    align-items: center;
 }
 
-.container-4 {
-    width: 1062px;
-    height: 420px;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    gap: 72px;
-    position: relative;
+.section-features .products .item img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 34px;
 }
 
-.figures {
-    width: 480px;
-    height: 420px;
-    position: relative;
-}
-
-.man-glasses {
-    width: 227px;
-    height: 353px;
-}
-
-.notebook {
-    width: 227px;
-    height: 356px;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
-
-.words {
-    width: 510px;
-    height: 388px;
-    align-self: center;
-}
-
-.container-4 .red-dots {
-    position: absolute;
-    width: 112px;
-    height: 112px;
-    bottom: -37px;
-    left: -34px;
-    z-index: -10;
-}
-
-.container-4 h5 {
-    color: var(--primary-red);
-    font-size: 20px;
+.section-features .products .item .title {
+    font-size: 28px;
     font-weight: 500;
     line-height: 100%;
-    letter-spacing: 4.2px;
-    padding-bottom: 18px;
+    color: var(--primary-blue);
+    padding-bottom: 15px;
 }
 
-.container-4 h1 {
-    color: var(--primary-blue);
-    font-size: 48px;
+.section-features .products .item .subtitle2 {
+    color: #949494;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.section-features .div-red-dots {
+    position: absolute;
+    top: 27px;
+    left: -57px;
+}
+
+.info .container-4 {
+    width: 1062px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    gap: 72px;
+}
+
+.info .container-4 .figures {
+    display: flex;
+    gap: 27px;
+    width: 50%;
+}
+
+.info .container-4 .figures figure {
+    width: 225px;
+    height: 358px;
+}
+
+.info .container-4 .figures .notebook {
+    margin-top: 68px;
+}
+
+.info .container-4 .red-dots {
+    position: absolute;
+    bottom: 39px;
+    left: -36px;
+    z-index: -3;
+}
+
+.service {
+    background-color: var(--primary-blue);
+}
+
+.service .full-container-5 {
+    width: 1080px;
+    margin: 0 auto;
+    padding: 99px 0;
+}
+
+.service .full-container-5 .h6 {
+    text-align: center;
+}
+
+.service .full-container-5 .h1 {
+    text-align: center;
+    margin-bottom: 74px;
+}
+
+.service .full-container-5 .figures {
+    display: flex;
+    column-gap: 52px;
+
+}
+
+.service .full-container-5 .figure-1 {
+    position: relative;
+}
+
+.service .full-container-5 .figure-1 .describtion {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: end;
+    padding: 84px 37px;
+}
+
+.service .full-container-5 .figure-2 {
+    position: relative;
+}
+
+.service .full-container-5 .figure-2 .describtion {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: end;
+    padding: 84px 37px;
+}
+
+
+.service .full-container-5 .figures .title {
+    font-size: 30px;
     font-weight: 600;
     line-height: 140%;
-    padding-bottom: 29px;
+
+
 }
 
-.container-4 p {
-    color: #818181;
+.service .full-container-5 .figures .subtitle {
     font-size: 16px;
     font-weight: 400;
     line-height: 160%;
-    padding-bottom: 26px;
+    width: 388px;
+    height: 123px;
 }
 
-.container-4 button {
-    border-radius: 2px;
-    background-color: var(--primary-red);
-    padding: 14px 17px;
-    color: #FFF;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 100%;
-    border: none;
+.service .full-container-5 .title {
+    margin-bottom: 20px;
 }
-.full-container-5 {
-    width: 1200px;
-    height: 1010px;
-    background-color: var(--primary-blue);
+
+.whoweare {
+    width: 1121px;
+    margin: 0 auto;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    margin: 140px auto;
-    padding-top: 93px;
-    padding-bottom: 93px;
+    column-gap: 133px;
+    position: relative;
 }
-.full-container-5 img {
-    width: 514px;
-    height: 639px;
+
+.whoweare .dot-square {
+    position: absolute;
+    top: -3px;
+    left: -15px;
+    z-index: -3;
 }
-.full-container-5 .figures {
+
+.whoweare figure {
+    position: relative;
+    width: 381px;
+    height: 424px;
+    margin-top: 34px;
+    margin-left: 42px;
+}
+
+.whoweare figure .man-glasses {
+    width: 381px;
+    height: 424px;
+}
+
+.whoweare .small {
+    position: absolute;
+    width: 214px;
+    height: 195px;
+    right: 0;
+    bottom: -32px;
+}
+
+.whoweare .text {
+    width: 565px;
+    text-align: start;
+}
+
+.whoweare .text .subtitles {
+    height: 172px;
+}
+
+.whoweare .text .paragraph {
+    width: 503px;
+    height: 88px;
+    margin-bottom: 28px;
+}
+
+.whoweare .text ol {
+    width: 345px;
+    height: 118px;
+    color: rgba(152, 152, 152, 1);
+}
+
+.whoweare .text ol li:not(:last-child) {
+    margin-bottom: 24px;
+}
+
+
+.projects {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.projects .titles,
+.projects .subtitles {
+    text-align: center;
+}
+
+.projects .subtitles {
+    margin-bottom: 86px;
+}
+
+.projects .figures {
     display: flex;
     justify-content: space-between;
-    gap: 52px;
-    margin: 0 auto;
+    column-gap: 29px;
+}
+
+.projects .figures figure {
+    position: relative;
+}
+
+.projects .figures .describtion {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: flex-end;
+    padding: 24px 32px;
+}
+
+.projects .figures .title {
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 140%;
+    margin-bottom: 10px;
+}
+
+.projects .figures .title .text {
+    /* width: 218px;
+    height: 78px; */
+}
+
+.projects .figures .subtitles {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.consultation {
+    width: 100%;
+    height: 380px;
+    background-image: url(/assets/img/background-image.png);
+}
+
+.consultation .container {
+    width: 1131px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 198px;
+    align-items: center;
+    height: 380px;
+}
+
+.consultation .container .subtitle {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 149.5%;
+}
+
+.consultation .container button {
+    white-space: nowrap;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 100%;
+    padding: 30px 30px !important;
 }
