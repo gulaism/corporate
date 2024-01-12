@@ -86,3 +86,13 @@ section:not(:first-child) {
 .bg-gradient {
     background: linear-gradient(1deg, #FD5C30 0.53%, rgba(0, 0, 0, 0.00) 101.68%);
 }
+.absolute {
+    position: absolute;
+}
+.relative {
+    position: relative;
+}
+.dots-size {
+    width: 112px;
+    height: 112px;
+}

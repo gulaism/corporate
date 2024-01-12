@@ -333,7 +333,16 @@
 .consultation {
     width: 100%;
     height: 380px;
-    background-image: url(/assets/img/background-image.png);
+    background: url(/assets/img/background-image.png);
+    background-color: rgba(3, 19, 51, 0.7);
+    position: relative;
+}
+
+.consultation::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(3, 19, 51, 0.7);
 }
 
 .consultation .container {
@@ -349,13 +358,189 @@
     font-size: 42px;
     font-weight: 700;
     line-height: 149.5%;
+    z-index: 3;
 }
 
 .consultation .container button {
-    white-space: nowrap;
+    flex-shrink: 0;
     text-align: center;
     font-size: 22px;
     font-weight: 700;
     line-height: 100%;
     padding: 30px 30px !important;
+    z-index: 3;
+}
+
+.team {
+    height: 692px;
+}
+
+.team .container {
+    width: 1170px;
+}
+
+.team .container .subtitles.text-blue {
+    margin-bottom: 80px;
+}
+
+.team .container .header {
+    text-align: center;
+}
+
+.team .container .figures {
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+}
+
+.team .container .figure img {
+    height: 100%;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    overflow: hidden;
+}
+
+.team .container .figures .inner {
+    padding-top: 26px;
+    padding-left: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 0;
+}
+
+.team .container .figures .inner .name {
+    color: #071440;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.team .container .figures .inner .speciality {
+    color: #676972;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.36px;
+}
+
+.team .dots-size.first {
+    bottom: -71px;
+    left: -18px;
+}
+
+.team .dots-size.second {
+    top: 36px;
+    right: -54px;
+}
+
+.start {
+    height: 327px;
+}
+
+.start .container {
+    display: flex;
+    column-gap: 112px;
+    align-items: center;
+    background-color: #F3F3F3;
+    height: 100%;
+}
+
+.start .container .words {
+    margin-left: 234px;
+    padding-right: 80px;
+    border-right: 1px solid #000;
+}
+
+.start .container .title {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 159.5%;
+    width: 459px;
+    height: 90px;
+    margin-bottom: 20px;
+}
+
+.start .container .text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 180%;
+    width: 418px;
+    height: 49px;
+}
+
+.start .container button {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 100%;
+}
+
+footer {
+    margin-top: 105px;
+    background-color: var(--primary-blue);
+    height: 412px;
+}
+
+footer .container figure {
+    width: 88px;
+    height: 52px;
+    margin-bottom: 25px;
+}
+
+footer .container {
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    column-gap: 109px;
+    align-items: center;
+
+}
+
+footer .container .info p {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 180%;
+    margin-bottom: 41px;
+}
+
+footer .container .info .social {
+    display: flex;
+    gap: 27px;
+    align-items: center;
+}
+
+footer .container .info .social .link {
+    background-color: var(--primary-red);
+    border-radius: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+}
+
+footer .container .info2 {
+    display: flex;
+    column-gap: 148px;
+    white-space: nowrap;
+    color: #fff;
+}
+
+footer .container .info2 .box h3 {
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 180%;
+}
+
+footer .container .info2 .box .links {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 180%;
 }
